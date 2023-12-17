@@ -1,11 +1,11 @@
-CAPTAIN = "Picard"
+captain = "Picard"
 
 
-def initiateWarpSpeed(order):
+def initiate_warp_speed(order):
     if order == "engage":
         print("initiating warp speed")
     else:
         print("you are not the captain of this vessel")
 
 
-initiateWarpSpeed("engage")
+initiate_warp_speed("engage")
