@@ -1,9 +1,14 @@
-#test
+"""
+testlint.py
+"""
+
 CAPTAIN = "Picard"
 
 
 def initiate_warp_speed(order):
-    #test
+    """
+    Run function
+    """
     if order == "engage":
         print("Initiating warp speed")
     else:
